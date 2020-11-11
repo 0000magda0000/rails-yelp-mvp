@@ -4,7 +4,7 @@
   <%= f.input :name  %>
   <%= f.input :address %>
   <%= f.input :phone_number %>
-  <%= f.input :category %>
+  <%= f.input :category, collection: ["chinese", "italian", "japanese", "french", "belgian"] %>
   <%= f.submit class: "btn btn-primary" %>
 <% end %>
 
